@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: #1b244a;
+  font-family: Orbitron, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  color: white;
+  font-family: Verdana;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1.25rem;
+}
+
+.score {
+  font-size: 48px;
+  background-color: black;
+  color: red;
+  padding: 20px;
+  margin: 0;
+  border-radius: 1px;
+}
