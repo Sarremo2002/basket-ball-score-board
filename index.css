@@ -19,6 +19,8 @@ h3 {
 }
 
 .score {
+  width: 40px;
+  height: 30px;
   font-family: "Cursed Timer ULiL", sans-serif;
   text-align: center;
   font-size: 48px;
@@ -29,11 +31,24 @@ h3 {
   border-radius: 1px;
 }
 
-.buttons button {
+.buttons-container {
   font-family: "Cursed Timer ULiL", sans-serif;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
   font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  gap: 0.8rem;
+  margin: 0.5rem 0 0 0;
+}
+
+button {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  background-color: transparent;
+  height: 2.813rem;
+  color: white;
+  border: #364153 2px solid;
+  border-radius: 0.313rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: 2rem 0 0;
 }
